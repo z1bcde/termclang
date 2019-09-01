@@ -1,0 +1,1 @@
+gcc hello.c -o hello -I $root/usr/include -L $root/usr/lib -l ncurses
