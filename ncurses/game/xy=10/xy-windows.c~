@@ -1,5 +1,5 @@
 #include <ncurses/ncurses.h>
-#include <unistd.h>
+#include <windows.h>
 
 
 int main()
@@ -15,7 +15,7 @@ int main()
 		move(40,x);
 		addch('B');
 		refresh();
-		usleep(1000);
+		Sleep(1000);
 	}
 
 	getch();

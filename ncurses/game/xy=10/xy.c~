@@ -15,7 +15,7 @@ int main()
 		move(40,x);
 		addch('B');
 		refresh();
-		usleep(1000);
+		sleep(1);
 	}
 
 	getch();
