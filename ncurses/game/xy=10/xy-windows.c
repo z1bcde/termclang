@@ -5,14 +5,14 @@
 int main()
 {
 	int x,y;
-	x=0;
+	x=0; y=0;
 	initscr();
 	while(true)
 	{
 		x = x + 1;
 		move(10,x);
 		addch('A');
-		move(40,x);
+		move(30,x);
 		addch('B');
 		refresh();
 		Sleep(100);
