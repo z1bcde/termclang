@@ -1,0 +1,1 @@
+gcc sql-dev.c -o main -Ic:\sql3
